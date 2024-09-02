@@ -1,11 +1,11 @@
 table {
-    width:auto;
+    width:100%;
     text-align: center;
     border-collapse: collapse;
 }
 
 body{
-    width: auto;
+    width:100%;
 }
 
 th{
