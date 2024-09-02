@@ -1,7 +1,11 @@
 table {
-    width: 100%;
+    width:auto;
     text-align: center;
     border-collapse: collapse;
+}
+
+body{
+    width: auto;
 }
 
 th{
@@ -21,12 +25,6 @@ p:hover{
 
 td{
     padding: 10px;
-}
-
-@media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }
 }
 
 
