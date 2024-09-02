@@ -6,33 +6,36 @@ table {
 
 th{
 
-    background-color: rgb(4, 4, 179);
+    background-color: rgb(212, 212, 235);
     padding: 20px;
-    color: aliceblue;
+    color: rgb(5, 9, 14);
     font-size:22px;
-    transition: all 0.6s ease-in-out;
     text-shadow:3px 3px 10px rgb(0, 0, 0);
 } 
+p:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: all .5S ease-IN-OUT;
+
+}
 
 td{
     padding: 10px;
 }
 
-tr:hover:nth-child(even){
-    background-color: rgb(247, 243, 12);
+tr:nth-child(even){
+    background-color: rgb(239, 238, 142);
     text-shadow:3px 3px 10px  rgb(193, 20, 20);
     font-size:22px;
-    transition: all 0.6s ease-in-out;
     color:rgb(250, 0, 0);
 
 }
 
 
-tr:hover:nth-child(odd){
-    background-color: rgb(155, 52, 214);
+tr:nth-child(odd){
+    background-color: rgb(179, 100, 225);
     text-shadow:3px 3px 10px rgb(28, 23, 7);
     font-size:22px;
-    transition: all .5s ease-out;
     color:rgb(228, 225, 221);
 }
 
@@ -40,7 +43,6 @@ h1{
     background-color: rgb(214, 52, 149);
     text-shadow:3px 3px 10px rgb(0, 0, 0);
     font-size:30px;
-    transition: all .5s ease-out;
     color:rgb(228, 225, 221);
 }
 
@@ -54,16 +56,17 @@ H2{
     background-color: rgb(214, 52, 149);
     text-shadow:3px 3px 10px rgb(0, 0, 0);
     font-size:30px;
-    transition: all .5s ease-out;
     color:rgb(228, 225, 221);
 
 }
 
 
-input:focus{
+.inpt:focus{
     border:2px SOLID red;
     padding: 15px;
     border-radius: 30PX;
     transition: ALL 0.4S ease-in-out;
 
 }
+
+
